@@ -26,6 +26,7 @@ position = Vector2(-960, 540)
 platform_wall_layers = 2
 
 [node name="Platforms" type="Node2D" parent="."]
+visible = false
 
 [node name="Platform" parent="Platforms" instance=ExtResource("5")]
 position = Vector2(1136, 736)
